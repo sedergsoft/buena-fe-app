@@ -1,0 +1,34 @@
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# PHP / Composer
+/vendor/
+.phpunit.cache/
+.php-cs-fixer.cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+.cache/
