@@ -14,6 +14,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.sedergsoft.buenafe.ui.theme.BuenaFeTheme
@@ -47,6 +48,7 @@ private fun BuenaFeApp() {
             ) {
                 Text(
                     text = "♠",
+                    modifier = Modifier.graphicsLayer(rotationZ = 180f),
                     color = MaterialTheme.colorScheme.primary,
                     style = MaterialTheme.typography.displayLarge
                 )
